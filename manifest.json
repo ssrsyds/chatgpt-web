@@ -1,6 +1,6 @@
 {
-  "name": "ChatGPT",
-  "short_name": "ChatGPT",
+  "name": "天工智能AI语音版",
+  "short_name": "天工智能AI语音版",
   "description": "简洁而强大的ChatGPT应用",
   "start_url": "./",
   "display": "standalone",
