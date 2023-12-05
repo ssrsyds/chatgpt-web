@@ -14,7 +14,7 @@
     <link rel="manifest" crossorigin="use-credentials" href="manifest.json">
     <link rel="icon" type="image/png" href="icon.png">
     <link rel="apple-touch-icon" href="icon.png" sizes="512x512">
-    <title>ChatGPT</title>
+    <title>天工智能AI语音版</title>
     <style>
         .requestBody,
         .response .markdown-body {
@@ -2349,7 +2349,7 @@
     </div>
     <div id="loadMask">
         <div>
-            <div>ChatGPT</div>
+            <div>天工智能AI语音版</div>
             <div class="loadingCSSIcon">
                 <div></div>
                 <div></div>
@@ -2427,7 +2427,7 @@
                     <div class="button minimize"></div>
                     <div class="button maximize"></div>
                 </div>
-                <div class="title"><span>ChatGPT</span></div>
+                <div class="title"><span>天工智能AI语音版</span></div>
                 <div class="settings">
                     <button class="setBtn" id="toggleFull" data-i18n-window title>
                         <svg width="30" height="30">
@@ -3253,7 +3253,7 @@
                 "localQuotaExceedTip": "Local storage exceeded limit, please export chats data and clear or delete some chats!",
             },
             "zh": {
-                "description": "简洁而强大的ChatGPT应用",
+                "description": "天工智能AI语音版",
                 "newChat": "新建会话",
                 "newChatName": "新的会话",
                 "newFolder": "新建文件夹",
@@ -3370,7 +3370,7 @@
                 "noMicTip": "未识别到麦克风，请确保已安装麦克风！",
                 "noMicPerTip": "未允许麦克风权限！",
                 "azureInvalidTip": "由于订阅密钥无效或 API 端点错误，访问被拒绝！",
-                "errorAiKeyTip": "API密钥错误或失效，请检查API密钥！",
+                "errorAiKeyTip": "授权码错误或失效，请点击左下角设置填写授权码后使用。",
                 "copyCode": "复制代码",
                 "copySuccess": "复制成功",
                 "update": "更新",
@@ -5783,7 +5783,7 @@
                 })
             }
             let localAvatar = localStorage.getItem("userAvatar");
-            userAvatar = setAvatarPre.src = setAvatar.value = localAvatar || setAvatar.getAttribute("value") || "https://cdn.jsdelivr.net/gh/xqdoo00o/chatgpt-web@master/avatar.jpg";
+            userAvatar = setAvatarPre.src = setAvatar.value = localAvatar || setAvatar.getAttribute("value") || "https://tc.lzlspyxgs.asia/zly/2.jpg";
             setAvatar.onchange = () => {
                 userAvatar = setAvatar.value;
                 localStorage.setItem("userAvatar", userAvatar);
