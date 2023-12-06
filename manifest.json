@@ -1,6 +1,6 @@
 {
-  "name": "天工智能AI语音版",
-  "short_name": "天工智能AI语音版",
+  "name": "搜题助手",
+  "short_name": "搜题助手",
   "description": "简洁而强大的ChatGPT应用",
   "start_url": "./",
   "display": "standalone",
