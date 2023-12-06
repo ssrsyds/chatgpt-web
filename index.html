@@ -2566,7 +2566,7 @@
                                 </div>
                                 <select id="preSetSpeech">
                                 </select>
-                            </div>
+                            </div><h5>说明:首次使用或短时间内未使用请加载页面一分钟左右再尝试语音功能，需要缓冲时间<br><br>1-14为中文音色,剩余则为英文音色<br><br>注意：当提示“当前语音无法合成此消息，请选择其他语音或消息！”<br>可能是语音文件未完全加载或者是Ai回答的是中文，但是你选择的是英文音色，重新选择中文音色即可<br>因为英文音色不暂时不适配中文语音回答</h5>
                             <div>
                                 <div class="justSetLine">
                                     <input class="inputTextClass" id="testVoiceText" data-i18n-value="TTSTest" value />
@@ -5783,7 +5783,7 @@
                 })
             }
             let localAvatar = localStorage.getItem("userAvatar");
-            userAvatar = setAvatarPre.src = setAvatar.value = localAvatar || setAvatar.getAttribute("value") || "https://zfb.yjie.fun/1701753883.jpg";
+            userAvatar = setAvatarPre.src = setAvatar.value = localAvatar || setAvatar.getAttribute("value") || "https://zfb.yjie.fun/avatar.jpg";
             setAvatar.onchange = () => {
                 userAvatar = setAvatar.value;
                 localStorage.setItem("userAvatar", userAvatar);
